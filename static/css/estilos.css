@@ -86,7 +86,6 @@ h2,h4,h3 {
 .post {
     padding-bottom: 20px;
     margin-bottom: 20px;
-/*    border-bottom: 1px solid #999;*/
 }
 
 .post .post-title a{
@@ -132,9 +131,6 @@ iframe, h5 {
 .color1 {
 	background: #34495e;
 	color:#fff;
-}
-
-aside {
 }
 
 footer {
