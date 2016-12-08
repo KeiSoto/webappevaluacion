@@ -1,0 +1,57 @@
+$def with (post)
+<div class="row container">
+    
+    <section class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        
+        <div class="row">
+            <section class="posts col-md-12">
+                <div class="migas">
+                    <ol class="breadcrumb">
+                        <li><a href="/">Programacion de Aplicaciones</a></li>
+                        <li><a href="/viewdata">Base de Datos</a></li>
+                        <li class="active">Datos Especificos</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+        
+        <section class="jumbotron">
+            <div class="container">
+                <h2>$post.titulo</h2>
+            </div>   
+        </section>
+        
+        <div class="centraTabla table-responsive">
+            <a class="btn btn-primary btn-block" href="/viewdata">Cancelar</a>
+                <br>
+            <table class="table table-bordered table-hover table-responsive">
+                <thead class="table-active">
+                    <tr class="active">
+                        <th>ID</th>
+                        <th>Titulo</th>
+                        <th>Titulo Original</th>
+                        <th>Genero</th>
+                        <th>Nacionalidad</th>
+                        <th>Año</th>
+                        <th>Director</th>
+                        <th>Guion</th>
+                        <th>Fecha Estreno</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr>
+                        <td>$post.id</td>
+                        <td>$post.titulo</td>
+                        <td>$post.titulo_original</td>
+                        <td>$post.genero</td>
+                        <td>$post.nacionalidad</td>
+                        <td>$post.anio</td>
+                        <td>$post.director</td>
+                        <td>$post.guion</td>
+                        <td>$post.fecha_estreno</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div> 
