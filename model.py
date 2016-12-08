@@ -1,8 +1,6 @@
 import web, datetime
 
-#db = web.database(host="us-cdbr-iron-east-04.cleardb.net", dbn='mysql', db='heroku_1badb4b9ac7e6f9', user='b9d8d242aa29ad', pw='a96424d8')
-
-db = web.database(dbn='mysql', db='estrenos', user='root', pw='mikei')
+db = web.database(host="us-cdbr-iron-east-04.cleardb.net", dbn='mysql', db='heroku_15d60b6521417a0', user='b2adee8445e8b1', pw='bcc5c26d')
 
 def get_posts():
     return db.select('peliculas')
