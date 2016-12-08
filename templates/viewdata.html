@@ -22,7 +22,7 @@ $def with (posts)
         </section>
         
         <div class="container">
-                <a class="btn btn-primary btn-block btn-lg insertar" href="/new">Insertar Nuevo</a>
+                <a class="btn btn-success btn-block insertar" href="/new">Insertar Nuevo</a>
         </div>
         
         <br>
@@ -42,10 +42,10 @@ $def with (posts)
                         <td><a href="/view/$post.id">$post.id</a></td>
                         <td>$post.titulo</td>
                         <td>$post.titulo_original</td>
-                        <td><a class="btn btn-primary btn-block btn-lg" href="/edit/$post.id">Edit</a></td>
+                        <td><a class="btn btn-success btn-block" href="/edit/$post.id">Edit</a></td>
                         <td>
                             <form action="/delete/$post.id" method="post">
-                                <input class="btn btn-primary btn-block btn-lg" type="submit" value="Eliminar"/>
+                                <input class="btn btn-success btn-block" type="submit" value="Eliminar"/>
                             </form>
                         </td>
                     </tr>
